@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -27,7 +28,11 @@
 .App-link {
   color: #61dafb;
 }
-
+.sample {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +40,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.slide-arrow{
+position: absolute;
+top: 50%;
+margin-top: -15px;
+}
+.prev-arrow{
+left: -40px;
+width: 0;
+height: 0;
+border-left: 0 solid transparent;
+border-right: 15px solid #113463;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+}
+.next-arrow{
+right: -40px;
+width: 0;
+height: 0;
+border-right: 0 solid transparent;
+border-left: 15px solid #113463;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
 }

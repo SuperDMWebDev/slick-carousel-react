@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import Slider from "react-slick";
-function App() {
+function App1() {
   // function SampleNextArrow(props) {
   //   const { className, style, onClick } = props;
 
@@ -36,14 +36,10 @@ function App() {
   const settings = {
     dots: true,
     infinite: true,
-    className: "sample",
-    centerMode: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
-    prevArrow: <SamplePrevArrow />,
-    nextArrow: <SampleNextArrow />,
+    className: "sample",
   };
   return (
     <div>
@@ -72,4 +68,4 @@ function App() {
   );
 }
 
-export default App;
+export default App1;
